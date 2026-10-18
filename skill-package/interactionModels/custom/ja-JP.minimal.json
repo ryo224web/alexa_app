@@ -1,0 +1,23 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "おつかいメモ",
+      "intents": [
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.NavigateHomeIntent", "samples": [] },
+        {
+          "name": "AddItemIntent",
+          "slots": [
+            { "name": "item", "type": "AMAZON.SearchQuery" }
+          ],
+          "samples": [
+            "{item} を追加して"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

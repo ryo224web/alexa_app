@@ -1,0 +1,10 @@
+{
+  "name": "otsukai-memo",
+  "version": "1.2.0",
+  "description": "Alexa → Notion 買い物リスト追加スキル",
+  "main": "index.js",
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^1.86.0"
+  }
+}

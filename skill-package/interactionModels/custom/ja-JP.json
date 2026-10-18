@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "おつかいメモ",
+      "intents": [
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.NavigateHomeIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        {
+          "name": "AddItemIntent",
+          "slots": [
+            { "name": "item", "type": "AMAZON.SearchQuery" }
+          ],
+          "samples": [
+            "{item} を追加して",
+            "{item} を追加",
+            "{item} 追加して",
+            "{item} を入れて",
+            "{item} 入れて",
+            "{item} をメモして",
+            "{item} をメモ",
+            "{item} を書いて",
+            "{item} を登録して",
+            "{item} を買い物に追加して",
+            "{item} を買うものに追加して",
+            "{item} が欲しい",
+            "{item} を買う"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
